@@ -1,0 +1,28 @@
+AtreiaDPS
+=========
+
+INSTALAÇÃO (uma vez só)
+1. Instale o Npcap: https://npcap.com/#download
+   - Pode deixar as opções padrão.
+2. Extraia este .zip numa pasta qualquer (ex: Documentos\AtreiaDPS).
+   - Mantenha a pasta "data" junto do AtreiaDPS.exe.
+
+USO
+- Abra o AtreiaDPS.exe (de preferência ANTES de logar no personagem).
+- O jogo precisa estar em modo "janela sem borda" para o overlay aparecer por cima.
+- Se o Windows mostrar "O Windows protegeu o computador": clique em "Mais informações" > "Executar assim mesmo".
+- Se aparecer erro de captura, execute como administrador.
+
+ATALHOS (editáveis na engrenagem)
+- Ctrl+Shift+H  ocultar / mostrar
+- Ctrl+Shift+R  limpar o dano
+
+DICAS
+- Engrenagem: configurações (seu personagem, atalhos, tempo-alvo do boss, filtros, opacidade).
+- Clique num jogador para ver o dano por skill.
+- Setas no rodapé: alterna entre o Total (desde o último clean) e cada luta.
+- Arraste pelas bordas para redimensionar.
+- Faça um teleporte uma vez para o meter aprender o nome do seu personagem (fica salvo).
+
+O meter só LÊ o tráfego de rede do próprio jogo. Não mexe na memória do jogo nem envia nada para ele.
+Mesmo assim, ferramentas de terceiros podem ir contra os termos do jogo: use por sua conta e risco.

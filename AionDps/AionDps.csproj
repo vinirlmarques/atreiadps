@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>AtreiaDPS</AssemblyName>
+    <Product>AtreiaDPS</Product>
+    <Version>1.0.2</Version>
+    <Company>AtreiaDPS</Company>
+    <Authors>AtreiaDPS</Authors>
+    <Description>AtreiaDPS - medidor de DPS do AION 2 (leitura passiva da rede)</Description>
+    <Copyright>AtreiaDPS 2026</Copyright>
+    <AssemblyTitle>AtreiaDPS</AssemblyTitle>
+    <ApplicationIcon>Assets/AtreiaDPS.ico</ApplicationIcon>
+    <!-- Sem designer do WinForms: propriedades de controles desenhados à mão não precisam de serialização -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="K4os.Compression.LZ4" Version="1.3.8" />
+    <PackageReference Include="PacketDotNet" Version="1.4.8" />
+    <PackageReference Include="SharpPcap" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets/AtreiaDPS.ico" LogicalName="AtreiaDPS.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="data\**\*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+</Project>

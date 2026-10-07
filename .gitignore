@@ -1,0 +1,10 @@
+# build
+bin/
+obj/
+release/
+*.user
+.vs/
+
+# arquivos gerados em tempo de execução
+settings.json
+*.log
